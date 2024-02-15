@@ -1,3 +1,3 @@
 function alertButton(){
-    alert("hello world");
+    alert("Button Pressed");
 }
