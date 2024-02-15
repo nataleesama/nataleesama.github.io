@@ -3,6 +3,22 @@ h1 {
     font-size: xx-large;
 }
 
+h2 {
+    color : rosybrown;
+    font-size: x-large;
+}
+
+p{
+    color : rosybrown;
+    font-size: large;
+}
+
+body{
+    background-color: seashell;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .border{
     background-color: lavender;
 }
@@ -29,18 +45,4 @@ span:before{
 span:after{
     left: 100%;
     margin-left: 15px;
-}
-
-h2 {
-    color : rosybrown;
-}
-
-p{
-    color : rosybrown;
-}
-
-body{
-    background-color: seashell;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
