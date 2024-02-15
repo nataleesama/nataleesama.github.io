@@ -1,16 +1,18 @@
 h1 {
     color : slategray;
-    font-size: xx-large;
+    font-size: 60px;
+    margin-bottom: 5px;
 }
 
 h2 {
     color : rosybrown;
-    font-size: x-large;
+    font-size: 20px;
+    margin-bottom: 75px;
 }
 
 p{
     color : rosybrown;
-    font-size: large;
+    font-size: 25px;
 }
 
 body{
@@ -19,30 +21,73 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.border{
-    background-color: lavender;
+button{
+    height:50px;
+    width: 50px;
+    display:grid;
 }
 
-span{
-    display: inline-block;
-    position: relative;
+.content{
+    width: 75%;
+    height: 75px;
+    border-radius: 25px;
+    border-width: 15px;
+    border-color: rosybrown;
+    border-style: solid;
+    background-color: seashell;
+    margin-top: 10px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-span:before, span:after{
-    position: absolute;
-    height: 7px;
-    border-bottom: 1px rosybrown;
-    border-top: 1px rosybrown;
-    top: 0;
-    width: 400px;
+.border1{
+    margin-left: 50px;
+    width: 30%;
+    height: 200px;
+    background-color: #C9D1DA;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:left;
+    border-style: solid;
+    border-color: slategray;
+    border-width: 20px;
 }
 
-span:before{
-    right: 100%;
-    margin-right: 15px;
+.border2{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 30%;
+    height: 200px;
+    background-color: #C9D1DA;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    border-style: solid;
+    border-color: slategray;
+    border-width: 20px;
 }
 
-span:after{
-    left: 100%;
-    margin-left: 15px;
+.border3{
+    margin-right: 50px;
+    width: 30%;
+    height: 200px;
+    background-color: #C9D1DA;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    border-style: solid;
+    border-color: slategray;
+    border-width: 20px;
+}
+
+.group{
+    display: flex;
 }
