@@ -1,59 +1,85 @@
 h1 {
-    color : slategray;
+    color : #1D2D44;
     font-size: 60px;
     margin-bottom: 5px;
 }
 
 h2 {
-    color : rosybrown;
+    color : #748CAB;
     font-size: 20px;
     margin-bottom: 75px;
 }
 
 p{
-    color : rosybrown;
+    color : #748CAB;
     font-size: 25px;
 }
 
 body{
-    background-color: seashell;
+    background-color: #F0EBD8;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 button{
-    height:50px;
-    width: 50px;
+    height:55px;
+    width: 55px;
     display:grid;
-}
-
-.content{
-    width: 75%;
-    height: 75px;
-    border-radius: 25px;
-    border-width: 15px;
-    border-color: rosybrown;
-    border-style: solid;
-    background-color: seashell;
-    margin-top: 10px;
-    font-size: 35px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #F0EBD8;
+    border-radius: 25px;
+    border-width: 5px;
+    border-color: #748CAB;
+    color: #748CAB;
+}
+
+.top{
+    background-color: #1D2D44;
+    border-color: #3E5C76;
+    border-width: 25px;
+    border-radius: 25px;
+    height: 55px;
+    margin-left : -50%;
+    margin-right : -50%;
+    margin-top: -35px;
+}
+hr{
+    background-color: #748CAB;
+    height: 20px;
+
+}
+
+.content{
+    width: 70%;
+    height: 225px;
+    border-radius: 25px;
+    border-width: 15px;
+    border-color: #748CAB;
+    border-style: solid;
+    background-color: #F0EBD8;
+    margin-top: 40px;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #748CAB;
 }
 
 .border1{
     margin-left: 50px;
     width: 30%;
-    height: 200px;
-    background-color: #C9D1DA;
+    height: 300px;
+    background-color: #3E5C76;
     border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     float:left;
     border-style: solid;
-    border-color: slategray;
+    border-color: #1D2D44;
     border-width: 20px;
 }
 
@@ -61,30 +87,30 @@ button{
     margin-left: 25px;
     margin-right: 25px;
     width: 30%;
-    height: 200px;
-    background-color: #C9D1DA;
+    height: 300px;
+    background-color: #3E5C76;
     border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     float: right;
     border-style: solid;
-    border-color: slategray;
+    border-color: #1D2D44;
     border-width: 20px;
 }
 
 .border3{
     margin-right: 50px;
     width: 30%;
-    height: 200px;
-    background-color: #C9D1DA;
+    height: 300px;
+    background-color: #3E5C76;
     border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     float: right;
     border-style: solid;
-    border-color: slategray;
+    border-color: #1D2D44;
     border-width: 20px;
 }
 
