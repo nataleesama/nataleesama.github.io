@@ -1,18 +1,22 @@
 h1 {
-    color : #330000;
-    text-align: center;
+    color : slategray;
+}
+
+hr{
+    width:50%;
+    text-align:left;
+    margin-left:0;
 }
 
 h2 {
-    color : #660000;
-    text-align: center;
+    color : rosybrown;
 }
 
 p{
-    color : #660000;
-    text-align: center;
+    color : rosybrown;
 }
 
 body{
-    background-color: #FFE5CC;
+    background-color: seashell;
+    text-align: center;
 }
