@@ -1,9 +1,10 @@
 h1 {
     color : slategray;
+    font-size: x-large;
 }
 
 hr{
-    width:50%;
+    width:500%;
     text-align:left;
     margin-left:0;
 }
@@ -19,4 +20,5 @@ p{
 body{
     background-color: seashell;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
