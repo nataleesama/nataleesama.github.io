@@ -1,12 +1,10 @@
 h1 {
     color : slategray;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
-hr{
-    width:500%;
-    text-align:left;
-    margin-left:0;
+.border{
+    background-color: lavender;
 }
 
 span{
@@ -44,5 +42,5 @@ p{
 body{
     background-color: seashell;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
