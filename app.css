@@ -1,15 +1,3 @@
-h1 {
-    color : #1D2D44;
-    font-size: 60px;
-    margin-bottom: 5px;
-}
-
-h2 {
-    color : #748CAB;
-    font-size: 20px;
-    margin-bottom: 75px;
-}
-
 p{
     color : #748CAB;
     font-size: 25px;
@@ -17,8 +5,8 @@ p{
 
 body{
     background-color: #F0EBD8;
-    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
 }
 
 button{
@@ -36,20 +24,58 @@ button{
     color: #748CAB;
 }
 
-.top{
+.banner{
+    color : #F0EBD8;
     background-color: #1D2D44;
-    border-color: #3E5C76;
-    border-width: 25px;
-    border-radius: 25px;
-    height: 55px;
-    margin-left : -50%;
-    margin-right : -50%;
-    margin-top: -35px;
+    height: 65px;
+    font-size: 35px;
+    margin-left : -15px;
+    margin-right : -15px;
+    margin-top: -20px;
+    padding-left: 25px;
+    padding-top: 25px;
+    margin-bottom: 5px;
 }
+
+.subBanner{
+    color:#F0EBD8;
+    background-color: #748CAB;
+    border-color: #1D2D44;
+    border-width: 5px;
+    border-style: solid;
+    height:30px;
+    font-size: 18px;
+    margin-left : -18px;
+    margin-right : -25px;
+    margin-top: -30px;
+    padding-left: 25px;
+    padding-top: 15px;
+    margin-bottom: 100px;
+}
+
 hr{
     background-color: #748CAB;
     height: 20px;
 
+}
+
+.headers{
+    display: inline-flex;
+}
+
+.experience,.resume,.me{
+    display: flex;
+    padding-right: 40%;
+    padding-left: 40%;
+    width: 25%;
+    height:50px;
+    color:#1D2D44;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 5px;
 }
 
 .content{
@@ -61,15 +87,17 @@ hr{
     border-style: solid;
     background-color: #F0EBD8;
     margin-top: 40px;
-    font-size: 45px;
-    display: flex;
+    font-size: 195%;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    display: flex;
     color: #748CAB;
+    text-align: left;
+    padding-left: 5px;
 }
 
 .border1{
-    margin-left: 50px;
+    margin-left: 10px;
     width: 30%;
     height: 300px;
     background-color: #3E5C76;
@@ -100,7 +128,6 @@ hr{
 }
 
 .border3{
-    margin-right: 50px;
     width: 30%;
     height: 300px;
     background-color: #3E5C76;
@@ -115,5 +142,5 @@ hr{
 }
 
 .group{
-    display: flex;
+    display: inline-flex;
 }
