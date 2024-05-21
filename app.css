@@ -1,11 +1,11 @@
 p{
     color : #748CAB;
-    font-size: 25px;
+    font-size: 10%;
 }
 
 body{
     background-color: #F0EBD8;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
     text-decoration: none;
 }
 
@@ -28,8 +28,8 @@ button{
     color : #F0EBD8;
     background-color: #1D2D44;
     height: 65px;
-    width: 110%;
-    font-size: 35px;
+    width: 100%;
+    font-size: 225%;
     margin-left : -15px;
     margin-right : -15px;
     margin-top: -20px;
@@ -41,17 +41,15 @@ button{
 .subBanner{
     color:#F0EBD8;
     background-color: #748CAB;
-    border-color: #1D2D44;
-    border-width: 5px;
-    border-style: solid;
-    height:30px;
-    font-size: 18px;
-    margin-left : -18px;
-    margin-right : -25px;
-    margin-top: -30px;
+    font-size: 125%;
+    width: 100%;
+    height: 60px;
+    margin-left : -15px;
+    margin-right : -15px;
+    margin-top: -20px;
     padding-left: 25px;
     padding-top: 15px;
-    margin-bottom: 100px;
+    margin-bottom: 35px;
 }
 
 hr{
@@ -61,22 +59,15 @@ hr{
 }
 
 .headers{
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .experience,.resume,.me{
-    display: flex;
-    padding-right: 40%;
-    padding-left: 40%;
-    width: 25%;
-    height:50px;
+    float: left;
     color:#1D2D44;
-    font-size: 30px;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    white-space: nowrap;
-    margin-top: 5px;
+    font-size: 40px;
 }
 
 .content{
@@ -98,7 +89,6 @@ hr{
 }
 
 .border1{
-    margin-left: 10px;
     width: 30%;
     height: 300px;
     background-color: #3E5C76;
@@ -113,8 +103,6 @@ hr{
 }
 
 .border2{
-    margin-left: 25px;
-    margin-right: 25px;
     width: 30%;
     height: 300px;
     background-color: #3E5C76;
@@ -140,6 +128,13 @@ hr{
     border-style: solid;
     border-color: #1D2D44;
     border-width: 20px;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    clear: left;
 }
 
 .group{
