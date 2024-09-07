@@ -1,0 +1,181 @@
+
+body{
+    background-color: #bdaec5;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    font-weight: normal;
+}
+
+img{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+    color: #f9f4f9;
+    text-decoration: none;
+}
+/*
+.wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.header{
+    position: fixed;
+}
+*/
+
+.headP{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border: none;
+    background-color: #d1c2d9;
+    border-radius: 25px;
+    padding: 6px;
+}
+
+.headP:hover{
+    background-color: #bdaec5;
+}
+
+.headParent{
+    background-color: #d1c2d9;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    color: #442a36;
+}
+
+.tab{
+    background-color: #442a36;
+    height: 8px;
+    width: 100%;
+}
+
+.main{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 35% 65%;
+    height: 100%;
+    width:100%
+}
+
+.leftBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*width: 35%;*/
+
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+
+}
+
+.leftP{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 55px;
+    color: #442a36;
+}
+
+.resImg{
+    height: 155px;
+    padding-top: 45px;
+
+}
+
+.edImg{
+    height: 155px;
+}
+
+.srcImg{
+    height: 155px;
+    padding-top: 15px;
+}
+
+.rightBar{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f4f9;
+
+    align-items: center;
+    grid-column-start: 2 / 3;
+    grid-row-start: 1 / 1;
+}
+
+.rightP{
+    font-size: 40px;
+    color: #442a36;
+}
+
+.profile{
+    height: 200px;
+}
+
+.bio{
+    margin-bottom: 5px;
+    color: #442a36;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border: none;
+    background-color: #f9f4f9;
+
+}
+
+.bio:hover{
+    color: #bdaec5;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    background-color: #bdaec5;
+    color: #f9f4f9;
+    border-radius: 25px;
+    width:75%;
+    border-style: solid;
+    border-width: 12px;
+    border-color: #d1c2d9;
+    margin-top: 75px;
+}
+
+.info{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.link{
+    padding: 10px;
+    color:#f9f4f9;
+    font-size: 25px;
+    margin: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border: none;
+    background-color: #bdaec5;
+}
+
+.link:hover{
+    color: #d1c2d9;
+}
+
+/*
+.parent{
+    display: 'flex';
+    justify-content: 'center' | 'space-between';
+    align-items: 'center' | 'space-between';
+}
+*/
