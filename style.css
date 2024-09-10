@@ -92,19 +92,35 @@ a{
     color: #442a36;
 }
 
+.link{
+    background-color: #bdaec5;
+    border-style: none;
+}
+
 .resImg{
     height: 155px;
     padding-top: 45px;
+}
 
+.resImg:hover{
+    transform: rotate(15deg);
 }
 
 .edImg{
     height: 155px;
 }
 
+.edImg:hover{
+    transform: rotate(15deg);
+}
+
 .srcImg{
     height: 155px;
     padding-top: 15px;
+}
+
+.srcImg:hover{
+    transform: rotate(15deg);
 }
 
 .rightBar{
