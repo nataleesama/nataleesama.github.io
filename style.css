@@ -90,6 +90,7 @@ a{
     margin: 0;
     margin-bottom: 55px;
     color: #442a36;
+    z-index: 0;
 }
 
 .link{
