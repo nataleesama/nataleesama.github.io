@@ -1,0 +1,75 @@
+body{
+    background-color: #bdaec5;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+    color: #442a36;
+}
+
+h1{
+    font-weight: normal;
+}
+
+
+.headP{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border: none;
+    background-color: #d1c2d9;
+    border-radius: 25px;
+    padding: 6px;
+}
+
+.headP:hover{
+    background-color: #bdaec5;
+}
+
+.headParent{
+    background-color: #d1c2d9;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    color: #442a36;
+}
+
+.tab{
+    background-color: #442a36;
+    height: 8px;
+    width: 100%;
+}
+
+.main{
+    display: grid;
+    grid-template-rows: 10% 20% 20% 20% 20% 25%;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    height: 100%;
+    width:100%;
+}
+
+#title{
+    grid-row: 1/1;
+    grid-column: 1/2;
+    margin-left: 20px;
+}
+
+#types{
+    grid-row: 2/2;
+    grid-column: span;
+    display: flex;
+    flex-direction: row;
+}
+
+.choice{
+    margin-left: 45px;
+    background-color: #bdaec5;
+    border: none;
+    height: 50%;
+    font-size: 20px;
+    color: #442a36;
+}
+
+.choice:hover{
+    font-size: 22px;
+}
